@@ -3,7 +3,8 @@
 
 init()
 {
-    level thread onplayerconnect();
+    if ( GetDvar( #"zombiemode" ) == "1" )
+        level thread onplayerconnect();
 }
 
 onplayerconnect()
