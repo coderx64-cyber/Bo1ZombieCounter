@@ -4,7 +4,7 @@
 init()
 {
     level.style = 0;
-    level.bHealthBarRed = true;
+    level.bHealthBarRed = false;
     if ( GetDvar( #"zombiemode" ) == "1" )
         level thread onplayerconnect();
 }
