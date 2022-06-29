@@ -208,7 +208,7 @@ HealthBar()
     hud.alignx = "left";
     hud.aligny = "bottom";
     hud.x = 40;
-    hud.y = -65;
+    hud.y = -105;
     hud.foreground = 1;
     hud.alpha = 1;
     hud setshader( "white", 1, 12 );
@@ -223,7 +223,7 @@ HealthBar()
     hud1.alignx = "left";
     hud1.aligny = "bottom";
     hud1.x = 33;
-    hud1.y = -60;
+    hud1.y = -100;
     hud1.foreground = 1;
     hud1.alpha = 1;
     hud1 setshader( "black", 115, 20 );
@@ -235,7 +235,7 @@ HealthBar()
     hud2.alignx = "left";
     hud2.aligny = "bottom";
     hud2.x = 5;
-    hud2.y = -62;
+    hud2.y = -102;
     hud2.foreground = 1;
     hud2.fontscale = 8;
     hud2.alpha = 1;
